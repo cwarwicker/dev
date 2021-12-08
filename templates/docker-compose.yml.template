@@ -3,9 +3,9 @@ version: "3.7"
 services:
     web:
         container_name: %project.name%-web
-        image: ubuntu2004-apache-php8
+        image: ubuntu2004-apache-php8-laravel
         build:
-            context: ./env/images/ubuntu2004-apache-php8
+            context: ./env/images/ubuntu2004-apache-php8-laravel
         ports:
             - %project.port%:80
         volumes:

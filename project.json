@@ -1,0 +1,9 @@
+{
+  "name": "cat-short-url",
+  "repo": "https://github.com/cwarwicker/catalyst-url-shortener",
+  "branch": "main",
+  "path": "./code/",
+  "submodules": [],
+  "domain": ".dev.io",
+  "port": "8080"
+}
