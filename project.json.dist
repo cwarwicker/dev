@@ -4,5 +4,6 @@
   "branch": "",
   "path": "./code/",
   "submodules": [],
-  "domain": ".dev"
+  "domain": ".dev",
+  "port": "8080"
 }

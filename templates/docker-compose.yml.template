@@ -7,7 +7,7 @@ services:
         build:
             context: ./env/images/ubuntu2004-apache-php8
         ports:
-            - 8080:80
+            - %project.port%:80
         volumes:
             - %project.path%:/var/www/site/
         networks:
