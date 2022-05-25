@@ -1,0 +1,9 @@
+{
+  "name": "sxhe",
+  "repo": "git@github.com:cwarwicker/sxhe.git",
+  "branch": "main",
+  "path": "./code/",
+  "submodules": [],
+  "domain": ".dev.io",
+  "port": "8080"
+}
