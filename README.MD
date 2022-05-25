@@ -1,7 +1,6 @@
 # Setup
 
-- Run `git submodule update -init` to clone down the devenv repo.
-- Run `git submodule update --remote` to checkout the latest commit in the devenv repo, so you get the latest scripts and images.
+- Run `./setup` to clone down the devenv submodule and checkout latest commit.
 - Make a copy of `project.json.dist` into `project.json` and fill out your project's information.
 - Run `./init` if this is the first time using this repo.
 - For subsequent uses, run `./up` to bring up the containers.
