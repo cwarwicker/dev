@@ -1,0 +1,16 @@
+{
+  "name": "moodle",
+  "repo": "git@github.com:moodle/moodle.git",
+  "branch": "master",
+  "path": "./code/",
+  "submodules": [
+    {"repo": "https://github.com/cwarwicker/moodle-block_plp", "branch": "main", "path": "blocks/plp"},
+    {"repo": "https://github.com/cwarwicker/moodle-block_quick_course", "branch": "master", "path": "blocks/quick_course"},
+    {"repo": "https://github.com/cwarwicker/moodle-block_quick_user", "branch": "master", "path": "blocks/quick_user"},
+    {"repo": "https://github.com/moodlehq/moodle-local_codechecker", "branch": "master", "path": "local/codechecker"},
+    {"repo": "https://github.com/moodlehq/moodle-local_moodlecheck", "branch": "master", "path": "local/moodlecheck"},
+    {"repo": "https://github.com/cwarwicker/moodle-tool_ribbons", "branch": "main", "path": "admin/tool/ribbons"}
+  ],
+  "domain": ".dev.io",
+  "port": "8080"
+}

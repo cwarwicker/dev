@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Import the project.sh file to get all the variables.
+source $(pwd)'/env/scripts/project.sh'
+
+WEB_CONTAINER=${PROJECT_NAME}'-web'
+
+docker exec -it ${WEB_CONTAINER} php /var/www/site/admin/cli/install_database.php --agree-license --adminemail=test@local.host --adminpass=Admin123!
