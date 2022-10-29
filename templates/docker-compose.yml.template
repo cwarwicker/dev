@@ -1,15 +1,16 @@
 version: "3.7"
 
 services:
-    web:
-        container_name: %project.name%-web
-        image: ubuntu2004-apache-php8
+    app:
+        container_name: %project.name%-%project.type%
+        stdin_open: true
+        image: ubuntu2004-python38
         build:
-            context: ./env/images/ubuntu2004-apache-php8
+            context: ./env/images/ubuntu2004-python38
         ports:
-            - %project.port%:80
+            - %project.port%:8000
         volumes:
-            - %project.path%:/var/www/site/
+            - %project.path%:/app
         networks:
             - %project.name%-net
 

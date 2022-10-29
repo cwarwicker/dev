@@ -1,0 +1,10 @@
+{
+  "type": "app",
+  "name": "writer-bot",
+  "repo": "https://github.com/cwarwicker/discord-Writer-Bot",
+  "branch": "master",
+  "path": "./code/",
+  "submodules": [],
+  "domain": ".dev.io",
+  "port": "8080"
+}
